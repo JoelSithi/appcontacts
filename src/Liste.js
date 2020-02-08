@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import Contact from './Contact'
-import {Consumer} from '../context'
+import Contact from './composants/Contact'
+import {Consumer} from './context'
+import './style.css'
 
 export default class Liste extends Component {
    render() {
@@ -10,7 +11,8 @@ export default class Liste extends Component {
                 {value => {
                     return(
                         <React.Fragment>
-                            <h1 className="alert alert-primary text-center"
+                         <div class="container">
+                            <h1 className="col-sm text-center"
                                 role="alert">Nos contacts : 
                             </h1>
                             {value.contacts.map(contact => (
@@ -22,6 +24,7 @@ export default class Liste extends Component {
                             tel={contact.tel}
                             />
                         ))}
+                        </div>
                         </React.Fragment> 
                     )
                 }}

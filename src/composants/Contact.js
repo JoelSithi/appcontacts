@@ -31,7 +31,7 @@ export default class Contact extends Component {
                         <div className="btn btn-block btn-success">
                             <h4> {this.props.nom}&nbsp; <i style={{cursor: 'pointer'}} className="fas fa-arrow-circle-down"
                                   onClick={this.montrerContact} ></i>
-                                  <i className="fas fa-times" style={{cursor: 'pointer', float:'right', color:'red'}} 
+                                  <i className="fas fa-times" style={{cursor: 'pointer', float:'right', color:'white'}} 
                                   onClick={() => this.supprimeContact(this.props.id, value.dispatch)} ></i>
                             </h4>
                                 {this.state.show ? ( 

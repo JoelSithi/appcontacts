@@ -1,7 +1,7 @@
 import React, { Component} from 'react'
 import'bootstrap/dist/css/bootstrap.min.css'
 import Header from './composants/Header'
-import Liste from './composants/Liste'
+import Liste from './Liste'
 import {Provider} from './context'
 import AddContact from './composants/contact/AddContact'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
@@ -18,17 +18,22 @@ render(){
 
     /*Wrapping with Provider */
      <Provider>
+       
        <Router>
+         <div className="col-sm">
           <div className="App">
           <Header />
-          <div className="Container">
-          <Switch>
-          <Route exact path="/ajoute" component={AddContact}/>
-          <Route exact path="/liste" component={Liste}/>
-          <Route exact path="/" component={Liste}/>
-          <Route exact path="/apropos" component={APropos}/>
-          <Route component={Erreur}/>
-          </Switch>
+            <div className="Container">
+            
+              <Switch>
+                <Route exact path="/ajoute" component={AddContact}/>
+                <Route exact path="/liste" component={Liste}/>
+                <Route exact path="/" component={Liste}/>
+                <Route exact path="/apropos" component={APropos}/>
+                <Route component={Erreur}/>
+              </Switch>
+            
+            </div>
           </div>
           </div>
         </Router>
