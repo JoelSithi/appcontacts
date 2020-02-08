@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/appcontacts/static/css/main.707b2027.chunk.css",
+    "main.js": "/appcontacts/static/js/main.ca3637f1.chunk.js",
+    "main.js.map": "/appcontacts/static/js/main.ca3637f1.chunk.js.map",
+    "runtime-main.js": "/appcontacts/static/js/runtime-main.ae722a46.js",
+    "runtime-main.js.map": "/appcontacts/static/js/runtime-main.ae722a46.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/appcontacts/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.0b3c013f.chunk.js": "/appcontacts/static/js/2.0b3c013f.chunk.js",
+    "static/js/2.0b3c013f.chunk.js.map": "/appcontacts/static/js/2.0b3c013f.chunk.js.map",
+    "index.html": "/appcontacts/index.html",
+    "precache-manifest.9f3b5a8398b6e31572114feb62461fa6.js": "/appcontacts/precache-manifest.9f3b5a8398b6e31572114feb62461fa6.js",
+    "service-worker.js": "/appcontacts/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/appcontacts/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.707b2027.chunk.css.map": "/appcontacts/static/css/main.707b2027.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae722a46.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.0b3c013f.chunk.js",
+    "static/css/main.707b2027.chunk.css",
+    "static/js/main.ca3637f1.chunk.js"
+  ]
+}
